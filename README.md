@@ -1,5 +1,13 @@
 # L’Aiguillage
 
+[![Jouer à L’Aiguillage](docs/jouer.svg)](https://christophegauld.github.io/aiguillage/)
+
+**Cliquez sur le bouton pour ouvrir le jeu dans votre navigateur**
+
+Aucune installation, aucune commande à saisir et aucun compte GitHub nécessaire
+
+[Lien direct vers le jeu](https://christophegauld.github.io/aiguillage/)
+
 Un tramway rouge, deux voies et une manette pour explorer 40 dilemmes de pédopsychiatrie avec des praticiens expérimentés
 
 Chaque voie représente une priorité ou une option de soin
@@ -48,7 +56,7 @@ L’export JSON ou CSV exclut le profil par défaut et propose de l’inclure ex
 Le croisement de champs précis peut permettre de reconnaître une personne : l’absence de nom ne garantit pas à elle seule un anonymat strict
 Les hébergeurs peuvent conserver leurs propres journaux techniques, indépendamment des réponses au jeu
 
-## Utilisation locale
+## Utilisation locale — facultative
 
 Ouvrir `dist/index.html` dans un navigateur récent ou servir le répertoire `dist`
 Aucune installation ni compilation n’est nécessaire
