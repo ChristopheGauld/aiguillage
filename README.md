@@ -1,0 +1,82 @@
+# L’Aiguillage
+
+Un tramway rouge, deux voies et une manette pour explorer 40 dilemmes de pédopsychiatrie avec des praticiens expérimentés
+
+Chaque voie représente une priorité ou une option de soin
+
+## Jouer
+
+Choisir un trajet de huit situations, parcourir toute la banque ou ouvrir directement un dilemme depuis le catalogue
+
+Six registres apparaissent au-dessus des titres : clinique, éthique, épistémologie, accès aux soins, organisation et institution
+
+- Laisser filer envoie le tram sur la voie du haut
+- Cliquer sur la manette, ou la tirer vers le bas, choisit la voie du bas
+- Un élément supplémentaire invite à maintenir ou réviser son choix
+- Une situation permet d’inventer une troisième voie
+- Le récapitulatif final restitue les choix et propose des pistes de discussion, sans score
+- Les commandes sont accessibles au clavier, les animations respectent la préférence de réduction des mouvements et le son est facultatif
+
+Les trajets mélangés comportent quatre situations cliniques et quatre situations issues des autres registres, en privilégiant les situations encore non jouées dans l’onglet
+
+## Contenu
+
+Les 24 situations cliniques abordent notamment TDAH, TSA, dépression, bipolarité, psychose débutante, TOC, anxiété, psychotraumatisme, deuil, troubles alimentaires, usages de substances, jeux vidéo, sommeil, plaintes somatiques, opposition, développement du langage et automutilations
+
+Les autres situations interrogent notamment les priorités des familles, l’accès effectif aux soins, la continuité à la majorité, la coordination, les indicateurs institutionnels et la construction des connaissances
+
+Les situations sont originales et fictives, avec deux priorités défendables et des contraintes explicites destinées à nourrir une discussion accompagnée
+Les conséquences décrivent des tensions possibles, sans prédire l’évolution d’un patient
+Les vignettes ne constituent pas des recommandations de soins et n’ont pas fait l’objet d’une validation par un comité clinique
+
+Les repères bibliographiques figurent dans les questions de discussion de chaque situation et dans `dist/sources.js`
+La couverture thématique s’appuie notamment sur le référentiel de psychiatrie et addictologie CNUP–AESP–CUNEA, quatrième édition, PUFR, 2024, et sur des recommandations publiques pédiatriques HAS et NICE
+Le manuel et les documents de travail ne sont pas distribués avec le jeu
+Les réflexions conceptuelles sont nourries par PhiloPsy de Christophe Gauld et Jean-Arthur Micoulaud-Franchi
+
+Inspiration mécanique : [Absurd Trolley Problems, Neal Agarwal](https://neal.fun/absurd-trolley-problems/)
+Les dessins, les situations et le code de cette version sont originaux
+
+## Profil et données
+
+Le profil initial est facultatif : âge, genre, profession en texte libre, années de pratique depuis le début de l’internat si pertinent, ville d’exercice ou d’études
+Il est possible de partir sans renseigner aucun champ
+
+Le profil et les réponses restent dans la session de l’onglet
+Aucune collecte centralisée de réponses ni analyse d’audience n’est configurée
+L’export JSON ou CSV exclut le profil par défaut et propose de l’inclure explicitement
+Le croisement de champs précis peut permettre de reconnaître une personne : l’absence de nom ne garantit pas à elle seule un anonymat strict
+Les hébergeurs peuvent conserver leurs propres journaux techniques, indépendamment des réponses au jeu
+
+## Utilisation locale
+
+Ouvrir `dist/index.html` dans un navigateur récent ou servir le répertoire `dist`
+Aucune installation ni compilation n’est nécessaire
+
+```sh
+python3 -m http.server 8765 --directory dist
+```
+
+## Modifier et vérifier
+
+- `dist/cases.js` contient les 40 situations, leurs choix, rebondissements et questions de discussion
+- `dist/sources.js` contient les références bibliographiques
+- `dist/app.js` contient le moteur et les dessins SVG
+- `dist/style.css` contient le fond ivoire et la mise en page pour ordinateur et téléphone
+- `tests/game.test.cjs` vérifie la banque, les parcours, les révisions, la reprise de session, le catalogue et les exports
+
+```sh
+node --check dist/app.js
+node --check dist/cases.js
+node --check dist/sources.js
+node --test tests/game.test.cjs
+```
+
+Les polices Bricolage Grotesque et DM Sans sont servies localement, avec leurs licences OFL dans `dist/assets/fonts`
+
+## Publication
+
+Le workflow `.github/workflows/pages.yml` vérifie le jeu puis publie `dist` sur GitHub Pages à chaque mise à jour de la branche `main`
+Dans les paramètres Pages du dépôt, sélectionner GitHub Actions comme source
+
+Les fichiers distribués ne contiennent ni réponses de participants ni documents de travail privés
