@@ -19,12 +19,12 @@ const CASES = [
     },
     "outcomes": [
       [
-        "Vous rendez visibles les efforts et les capacités retrouvées dans plusieurs lieux de vie",
-        "Un bénéfice mesurable peut prendre davantage de poids que le coût subjectif"
+        "Vous privilégiez les améliorations observées à l’école et à la maison",
+        "Les améliorations mesurées risquent de faire sous-estimer l’inconfort décrit par Malo"
       ],
       [
-        "Vous donnez à Malo une prise sur la définition du bénéfice du soin",
-        "La peur familiale de perdre des acquis peut rester insuffisamment travaillée"
+        "Vous associez Malo à l’évaluation des bénéfices du traitement",
+        "Les craintes des parents concernant une nouvelle dégradation peuvent rester peu discutées"
       ]
     ],
     "twist": "Malo précise qu’il ne veut pas revenir aux disputes des devoirs\nCe qui lui manque surtout est de plaisanter avec ses amis, qui le trouvent « différent » depuis qu’ils connaissent son diagnostic\nLa chronologie ne permet pas encore de séparer les effets du soin et ceux du regard des autres",
@@ -58,11 +58,11 @@ const CASES = [
     "outcomes": [
       [
         "Vous réduisez les situations où elle perd le fil et se sent en échec",
-        "L’incertitude anxieuse peut continuer à occuper le temps libéré"
+        "Les vérifications anxieuses peuvent persister malgré une meilleure organisation"
       ],
       [
         "Vous ciblez une conduite qui envahit sa vie malgré ses compétences",
-        "Une charge exécutive mal ajustée peut rendre le travail anxieux moins accessible"
+        "Des tâches trop complexes peuvent limiter la participation au travail sur l’anxiété"
       ]
     ],
     "twist": "Yasmine raconte qu’elle vérifie surtout quand la consigne a été donnée oralement\nMais elle vérifie aussi les messages adressés à sa meilleure amie, même lorsqu’elle les comprend parfaitement\nSon père demande : « Comment saura-t-on ce qui a vraiment aidé si on change tout en même temps ? »",
@@ -96,11 +96,11 @@ const CASES = [
     "outcomes": [
       [
         "Vous cherchez des liens précis avec les demandes et les changements de l’environnement",
-        "Une évolution plus globale de l’état psychique pourrait être moins lisible"
+        "Des symptômes présents dans plusieurs contextes pourraient être repérés plus tard"
       ],
       [
         "Vous cherchez une rupture de fonctionnement qui dépasse un seul contexte",
-        "Une mesure globale peut aplatir des déclencheurs pourtant modifiables"
+        "Des facteurs précis de l’environnement pourraient être négligés"
       ]
     ],
     "twist": "À la maison, Romy retrouve son activité favorite le dimanche matin\nEn semaine, même les jours sans école, elle s’en détourne\nSa mère se demande si le dimanche est différent parce que les adultes sont disponibles, parce qu’il n’y a rien de prévu, ou parce qu’elle a davantage dormi",
@@ -133,7 +133,7 @@ const CASES = [
     "outcomes": [
       [
         "Vous maintenez une continuité favorable à des apprentissages encore fragiles",
-        "La fatigue et le coût d’opportunité pour la vie familiale restent importants"
+        "La fatigue persiste et les séances laissent moins de temps aux activités familiales"
       ],
       [
         "Vous redonnez une place aux expériences choisies et aux observations ordinaires",
@@ -170,10 +170,10 @@ const CASES = [
     "outcomes": [
       [
         "Vous réduisez la rupture scolaire et testez des aménagements concrets",
-        "La performance peut redevenir très vite le principal thermomètre du rétablissement"
+        "Les résultats scolaires risquent de devenir le principal critère d’amélioration"
       ],
       [
-        "Vous cherchez une reprise qui ait une valeur propre pour Lina",
+        "Vous privilégiez une activité que Lina souhaite reprendre",
         "Le décalage scolaire continue de grandir et peut devenir une nouvelle source d’angoisse"
       ]
     ],
@@ -244,11 +244,11 @@ const CASES = [
     "outcomes": [
       [
         "Vous travaillez les repères qui peuvent aider Yanis à reconnaître ses besoins de soin",
-        "Le suivi peut rester centré sur une identité de patient qu’il souhaite desserrer"
+        "Yanis peut trouver le suivi trop centré sur la maladie alors qu’il souhaite reprendre ses activités"
       ],
       [
         "Vous partez de ce qui motive son engagement et testez ses capacités en situation",
-        "Les significations de l’épisode risquent de rester peu élaborées"
+        "Les questions de Yanis sur l’épisode peuvent rester peu discutées"
       ]
     ],
     "twist": "Yanis explique qu’il accepte de parler des signes d’alerte avec son éducateur pendant le trajet\nIl se tait dès qu’il entre dans le bureau médical, associé pour lui à l’hospitalisation\nSon éducateur sera absent le mois prochain : la continuité de ces échanges dépend donc de sa présence",
@@ -318,7 +318,7 @@ const CASES = [
     "outcomes": [
       [
         "Vous travaillez dans un contexte que l’entourage peut aider à observer et à soutenir",
-        "Les progrès visibles peuvent continuer de masquer un coût mental important"
+        "La diminution des rituels visibles peut faire sous-estimer les vérifications mentales"
       ],
       [
         "Vous reliez le traitement à un objectif qui compte directement pour Sarah",
@@ -359,7 +359,7 @@ const CASES = [
       ],
       [
         "Vous aidez Mila à éprouver sa capacité à agir sans certitude complète",
-        "L’exercice peut coûter trop cher si son quotidien contient déjà beaucoup d’incertitudes subies"
+        "L’exercice peut être trop difficile si le quotidien de Mila est déjà très instable"
       ]
     ],
     "twist": "Le père de Mila attend chaque soir son horaire de travail du lendemain\nLe planning ne peut donc pas tout prévoir\nMila propose de garder un repère certain, le message de sa tante après l’école, puis d’essayer de ne pas demander à quelle minute son père rentrera",
@@ -430,7 +430,7 @@ const CASES = [
         "Le lieu peut continuer de rappeler une histoire que les mesures actuelles n’effacent pas"
       ],
       [
-        "Vous ouvrez une possibilité de relation moins chargée par les rôles antérieurs",
+        "Vous permettez à Léo de rencontrer une nouvelle équipe et de nouveaux élèves",
         "Le changement de lieu ne règle pas nécessairement les mécanismes de l’anxiété sociale"
       ]
     ],
@@ -500,12 +500,12 @@ const CASES = [
     },
     "outcomes": [
       [
-        "Vous offrez un lieu où Alice peut déposer ce qu’elle ne souhaite pas confier aux proches",
+        "Vous proposez à Alice un entretien où elle peut parler sans ses proches",
         "Les rencontres peuvent lui donner le sentiment que ses réactions sont devenues un problème à réparer"
       ],
       [
         "Vous agissez sur les réponses quotidiennes et les possibilités de soutien",
-        "Certains aspects de son expérience peuvent rester sans espace propre"
+        "Alice peut manquer d’un temps individuel pour parler de ce qu’elle ressent"
       ]
     ],
     "twist": "Alice veut parler de sa grand-mère, mais dit que sa mère pleure lorsqu’elle évoque un souvenir heureux\nÀ l’école, elle voudrait simplement pouvoir sortir cinq minutes sans expliquer pourquoi devant la classe\nSa demande n’est donc ni le silence, ni une conversation obligatoire à chaque rencontre",
@@ -537,7 +537,7 @@ const CASES = [
     "outcomes": [
       [
         "Vous vous appuyez sur une organisation connue et un entourage impliqué",
-        "Le contrôle parental peut rester au centre alors que Camille cherche une autre position"
+        "La supervision parentale reste importante alors que Camille souhaite davantage d’autonomie"
       ],
       [
         "Vous faites une place à la participation sociale et à une responsabilité progressive",
@@ -795,7 +795,7 @@ const CASES = [
         "Des règles identiques peuvent être peu réalistes dans des organisations familiales différentes"
       ],
       [
-        "Vous cherchez une cohérence de sens compatible avec les ressources de chacun",
+        "Vous définissez des principes communs avec des règles adaptées à chaque foyer",
         "Arthur peut devoir continuer à apprendre deux ensembles de repères"
       ]
     ],
@@ -1012,7 +1012,7 @@ const CASES = [
     "outcomes": [
       [
         "Vous cherchez ce qui change entre la classe et la maison",
-        "Maya attendra pour raconter elle-même ce que ces changements lui coûtent"
+        "L’entretien sur ce que ressent Maya sera reporté"
       ],
       [
         "Vous donnez du temps à une expérience que les indicateurs ne décrivent pas",
@@ -1084,7 +1084,7 @@ const CASES = [
     },
     "outcomes": [
       [
-        "Vous cherchez avec Éden des moyens de garder une prise sur la situation",
+        "Vous préparez avec Éden des stratégies pour mieux supporter le bruit",
         "Une part importante de l’effort d’adaptation continue de reposer sur lui"
       ],
       [
@@ -1198,10 +1198,10 @@ const CASES = [
     "outcomes": [
       [
         "Vous vous appuyez sur une alliance déjà éprouvée pour préparer le passage",
-        "Le désir d’Alex d’être rencontré autrement peut rester en suspens"
+        "Le souhait d’Alex de changer d’équipe sera différé"
       ],
       [
-        "Vous donnez corps à son souhait de transition avec un chevauchement des équipes",
+        "Vous organisez des consultations conjointes pour préparer le changement d’équipe",
         "La multiplication temporaire des interlocuteurs peut alourdir le parcours"
       ]
     ],
@@ -1234,11 +1234,11 @@ const CASES = [
     },
     "outcomes": [
       [
-        "Vous facilitez la coordination autour d’un cap provisoire et de critères de révision",
+        "Vous retenez une hypothèse de travail et précisez les éléments qui conduiraient à la réviser",
         "Une formulation principale peut être reprise ensuite comme une certitude"
       ],
       [
-        "Vous tracez ce qui reste disputé et les éléments qui départageraient les lectures",
+        "Vous documentez les désaccords et les observations nécessaires pour comparer les hypothèses",
         "Les partenaires peuvent recevoir une incertitude difficile à traduire en actions"
       ]
     ],
@@ -1276,7 +1276,7 @@ const CASES = [
       ],
       [
         "Vous encouragez la continuité après l’entrée dans le soin",
-        "Les familles qui attendent dehors deviennent moins visibles dans le résultat principal"
+        "Le nombre de familles en attente pèse moins dans l’évaluation principale"
       ]
     ],
     "twist": "Les enfants rencontrés le plus vite ne sont pas toujours ceux dont le suivi commence le plus vite\nÀ l’inverse, certaines fins de suivi correspondent à un relais réussi, pas à une rupture",
