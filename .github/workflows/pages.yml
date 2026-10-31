@@ -21,9 +21,10 @@ jobs:
       - name: Vérifier le jeu
         run: |
           node --check dist/app.js
+          node --check dist/collection.js
           node --check dist/cases.js
           node --check dist/sources.js
-          node --test tests/game.test.cjs
+          node --test tests/*.test.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

@@ -10,7 +10,7 @@ function runtime(saved){
   const track={getTotalLength:()=>1000,getPointAtLength:n=>({x:n,y:170})};
   const dialog={open:false,showModal(){this.open=true},close(){this.open=false}};
   const nodes={'#main':main,'#dialog':dialog,'#dialog-body':body,'#live':{textContent:''},'#path-a':track,'#path-b':track,'#ties-a':{innerHTML:''},'#ties-b':{innerHTML:''},'#tram':{setAttribute(){}},'.dispatch':{scrollIntoView(){}}};
-  const c={document:{querySelector:s=>nodes[s]||null,addEventListener(){}},window:{innerWidth:1200,addEventListener(){},scrollTo(){},matchMedia:()=>({matches:true})},sessionStorage:{getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v)},requestAnimationFrame:f=>{frames.push(f);return frames.length},cancelAnimationFrame(){},setTimeout,clearTimeout,console};
+  const c={Collection:{offer(){},send(){},statusMarkup(){return ''}},document:{querySelector:s=>nodes[s]||null,addEventListener(){}},window:{innerWidth:1200,addEventListener(){},scrollTo(){},matchMedia:()=>({matches:true})},sessionStorage:{getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v)},requestAnimationFrame:f=>{frames.push(f);return frames.length},cancelAnimationFrame(){},setTimeout,clearTimeout,console};
   vm.createContext(c);vm.runInContext(['sources.js','cases.js','app.js'].map(f=>fs.readFileSync(path.join(base,f),'utf8')).join('\n'),c);
   const run=s=>vm.runInContext(s,c);
   let tick=0;

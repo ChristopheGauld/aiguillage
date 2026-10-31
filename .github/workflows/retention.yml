@@ -1,0 +1,12 @@
+name: Supprimer les participations arrivées à échéance
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+permissions: {}
+jobs:
+  retention:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purger uniquement les participations expirées
+        run: curl --fail --silent --show-error --retry 3 --max-time 30 --request POST https://aiguillage-participations.milkycomet4097.chatgpt.site/api/purge-expired

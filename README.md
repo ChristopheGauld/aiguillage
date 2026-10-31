@@ -50,11 +50,30 @@ Les dessins, les situations et le code de cette version sont originaux
 Le profil initial est facultatif : âge, genre, profession en texte libre, années de pratique depuis le début de l’internat si pertinent, ville d’exercice ou d’études
 Il est possible de partir sans renseigner aucun champ
 
-Le profil et les réponses restent dans la session de l’onglet
-Aucune collecte centralisée de réponses ni analyse d’audience n’est configurée
-L’export JSON ou CSV exclut le profil par défaut et propose de l’inclure explicitement
-Le croisement de champs précis peut permettre de reconnaître une personne : l’absence de nom ne garantit pas à elle seule un anonymat strict
-Les hébergeurs peuvent conserver leurs propres journaux techniques, indépendamment des réponses au jeu
+Le profil et les réponses restent dans la session de l’onglet tant que la collecte n’est pas acceptée
+Une demande d’accord distincte est affichée avant le parcours, avec une case non cochée par défaut
+Refuser ou fermer cette demande permet de jouer sans transmettre
+
+Après accord, chaque situation terminée est envoyée au service de collecte privé avec le profil renseigné, y compris la ville précise
+Aucun nom ni e-mail n’est demandé, mais les croisements de profil peuvent permettre une reconnaissance : il s’agit de données confidentielles sans identité directe, pas d’une garantie d’anonymat strict
+Les champs sont facultatifs et la collecte est réservée aux participants majeurs
+
+Les résultats sont accessibles uniquement à Christophe Gauld dans son espace Sites privé
+Aucune réponse de participant n’est stockée dans le dépôt GitHub ou dans GitHub Pages
+Le jeu public reçoit uniquement une confirmation d’enregistrement et ne dispose d’aucun accès aux résultats
+
+« Ma participation » permet de conserver un code personnel et de demander le retrait des données
+Le code peut également être utilisé sur [la page de retrait](https://aiguillage-participations.milkycomet4097.chatgpt.site/retrait)
+Une empreinte du code et un marqueur de retrait sans profil ni réponse évitent qu’un envoi retardé recrée les données
+
+La durée de conservation par défaut est de 12 mois
+Les données expirées sont exclues et purgées à chaque consultation ou transmission
+Le workflow `retention.yml` demande aussi une purge quotidienne des seules participations expirées
+GitHub peut suspendre les tâches planifiées des dépôts publics inactifs — vérifier leur état avant de relancer une campagne prolongée
+
+L’application n’enregistre ni adresse IP ni navigateur avec les réponses
+Les hébergeurs peuvent conserver leurs propres journaux techniques de connexion
+L’export local CSV/JSON reste disponible et exclut le profil par défaut
 
 ## Utilisation locale — facultative
 
