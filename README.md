@@ -1,16 +1,12 @@
 # L’Aiguillage
 
-[![Jouer à L’Aiguillage](docs/jouer.svg)](https://christophegauld.github.io/aiguillage/) [![Mes résultats privés](docs/resultats.svg)](https://et-vous-pedopsy-291026.milkycomet4097.chatgpt.site/)
+[![Jouer à L’Aiguillage](docs/jouer.svg)](https://christophegauld.github.io/aiguillage/)
 
 **Cliquez sur le bouton pour ouvrir le jeu dans votre navigateur**
 
 Aucune installation, aucune commande à saisir et aucun compte GitHub nécessaire
 
 [Lien direct vers le jeu](https://christophegauld.github.io/aiguillage/)
-
-[Mes résultats privés](https://et-vous-pedopsy-291026.milkycomet4097.chatgpt.site/) — réservé à Christophe Gauld après connexion à son compte ChatGPT, avec téléchargement CSV ou JSON
-
-Le bouton ouvre l’espace privé de résultats — aucune réponse de participant n’est publiée sur GitHub
 
 Un tramway rouge, deux voies et une manette pour explorer 40 dilemmes de pédopsychiatrie avec des praticiens expérimentés
 
@@ -111,3 +107,9 @@ Le workflow `.github/workflows/pages.yml` vérifie le jeu puis publie `dist` sur
 Dans les paramètres Pages du dépôt, sélectionner GitHub Actions comme source
 
 Les fichiers distribués ne contiennent ni réponses de participants ni documents de travail privés
+
+---
+
+[![Résultats privés](docs/resultats.svg)](https://et-vous-pedopsy-291026.milkycomet4097.chatgpt.site/)
+
+<sub>Accès réservé à Christophe Gauld après connexion à son compte ChatGPT · Téléchargement CSV ou JSON</sub>
