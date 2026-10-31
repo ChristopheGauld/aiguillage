@@ -8,7 +8,7 @@ Aucune installation, aucune commande à saisir et aucun compte GitHub nécessair
 
 [Lien direct vers le jeu](https://christophegauld.github.io/aiguillage/)
 
-Un tramway rouge, deux voies et une manette pour explorer 40 dilemmes de pédopsychiatrie avec des praticiens expérimentés
+Un tramway rouge avec deux voies, et une manette... pour explorer 40 dilemmes de pédopsychiatrie avec des praticiens expérimentés
 
 Chaque voie représente une priorité ou une option de soin
 
@@ -112,4 +112,3 @@ Les fichiers distribués ne contiennent ni réponses de participants ni document
 
 [![Résultats privés](docs/resultats.svg)](https://et-vous-pedopsy-291026.milkycomet4097.chatgpt.site/)
 
-<sub>Accès réservé à Christophe Gauld après connexion à son compte ChatGPT · Téléchargement CSV ou JSON</sub>
