@@ -1,6 +1,6 @@
-# L’Aiguillage
+# Le tramway de la PEA
 
-[![Jouer à L’Aiguillage](docs/jouer.svg)](https://christophegauld.github.io/aiguillage/)
+[![Jouer au tramway de la PEA](docs/jouer.svg)](https://christophegauld.github.io/aiguillage/)
 
 **Cliquez sur le bouton pour ouvrir le jeu dans votre navigateur**
 

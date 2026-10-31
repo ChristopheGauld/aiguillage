@@ -1,4 +1,4 @@
-name: Publier L’Aiguillage
+name: Publier Le tramway de la PEA
 on:
   push:
     branches: [main]
